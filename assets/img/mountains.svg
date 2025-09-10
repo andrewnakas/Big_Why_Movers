@@ -1,0 +1,17 @@
+<svg viewBox="0 0 1200 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Stylized Montana mountains">
+  <defs>
+    <linearGradient id="snow" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.0"/>
+    </linearGradient>
+  </defs>
+  <g fill="#145a48">
+    <path d="M0 170 L120 120 L200 150 L300 80 L420 150 L540 110 L650 160 L760 90 L860 140 L980 110 L1100 150 L1200 120 L1200 240 L0 240 Z" opacity="0.35"/>
+    <path d="M0 180 L140 130 L230 160 L320 90 L440 160 L560 120 L680 170 L780 100 L870 150 L990 120 L1110 160 L1200 140 L1200 240 L0 240 Z" opacity="0.55"/>
+  </g>
+  <g fill="url(#snow)">
+    <path d="M300 80 L320 100 L280 100 Z"/>
+    <path d="M760 90 L780 110 L740 110 Z"/>
+  </g>
+</svg>
+

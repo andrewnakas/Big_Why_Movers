@@ -1,0 +1,10 @@
+<svg viewBox="0 0 64 40" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Moving truck icon">
+  <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="2" y="10" width="34" height="18" rx="2" ry="2" fill="#ffffff"/>
+    <path d="M36 18h10l6 6h8v4H36z" fill="#ffffff"/>
+    <circle cx="16" cy="32" r="4" fill="#1f6b4f"/>
+    <circle cx="48" cy="32" r="4" fill="#1f6b4f"/>
+    <path d="M10 10V6h10"/>
+  </g>
+</svg>
+

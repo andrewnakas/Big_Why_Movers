@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact | Big Why Movers</title>
+    <meta name="description" content="Get a fast moving quote for Bozeman, Livingston, Big Sky and surrounding areas." />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="icon" href="assets/img/truck.svg" />
+  </head>
+  <body>
+    <header>
+      <div class="container nav">
+        <a class="brand" href="/">
+          <img class="mark" src="assets/img/truck.svg" alt="Big Why Movers truck" />
+          <span>Big Why Movers</span>
+        </a>
+        <button class="menu-btn" aria-label="Toggle Menu">☰</button>
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="tips.html">Tips</a>
+          <a class="cta" href="contact.html">Get a Quote</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" style="padding-bottom:40px;">
+        <div class="container inner">
+          <h1>Let’s get you moving</h1>
+          <p>Tell us about your move and we’ll get back with a friendly, fast estimate.</p>
+        </div>
+        <img class="mountains" src="assets/img/mountains.svg" alt="Montana mountains" />
+      </section>
+
+      <section>
+        <div class="container">
+          <div class="grid cols-2">
+            <form id="contact-form" class="contact-form">
+              <div class="row">
+                <div>
+                  <label for="name">Name</label>
+                  <input id="name" name="name" placeholder="Taylor Swift" required />
+                </div>
+                <div>
+                  <label for="email">Email</label>
+                  <input id="email" type="email" name="email" placeholder="you@example.com" required />
+                </div>
+                <div>
+                  <label for="phone">Phone</label>
+                  <input id="phone" name="phone" placeholder="(406) 555-0123" />
+                </div>
+                <div>
+                  <label for="date">Target date</label>
+                  <input id="date" type="date" name="date" />
+                </div>
+                <div class="full">
+                  <label for="from">Moving from</label>
+                  <input id="from" name="from" placeholder="Bozeman, MT" />
+                </div>
+                <div class="full">
+                  <label for="to">Moving to</label>
+                  <input id="to" name="to" placeholder="Big Sky, MT" />
+                </div>
+                <div class="full">
+                  <label for="details">Details</label>
+                  <textarea id="details" name="details" placeholder="Home size, stairs, special items, timing..."></textarea>
+                </div>
+                <div class="full">
+                  <label for="link-0">Photo/video links (optional)</label>
+                  <div id="link-list" class="row" style="grid-template-columns: 1fr;">
+                    <input id="link-0" name="links[]" type="url" inputmode="url" placeholder="https://drive.google.com/..." />
+                  </div>
+                  <button class="btn" type="button" id="add-link-btn" style="margin-top:8px">Add another link</button>
+                </div>
+                <div class="full">
+                  <button class="btn primary" type="submit">Request quote</button>
+                </div>
+              </div>
+              <div id="contact-toast" class="toast" role="status" aria-live="polite"></div>
+            </form>
+            <aside class="card">
+              <h3>Service area</h3>
+              <p>Bozeman • Belgrade • Four Corners • Livingston • Big Sky • Paradise Valley • Surrounding communities</p>
+              <h3>Hours</h3>
+              <p>Mon–Sat: 8am–6pm • Sunday by request</p>
+              <h3>Prefer to call?</h3>
+              <p>Call Sam Harlan: <a href="tel:+14065894641">+1 (406) 589-4641</a></p>
+              <p class="muted" style="margin-top:6px">
+                Need U‑Haul load/unload help? We’re a <a href="https://www.uhaul.com/MovingHelp/Bozeman-MT-59715/1/Xip-Moving-Pros/?id=8E0B44F119FE42" target="_blank" rel="noopener">Certified U‑Haul Moving Help partner</a>.
+              </p>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container foot">
+        <small>© <span id="year"></span> Big Why Movers. All rights reserved.</small>
+        <small class="muted">Licensed and insured • USDOT local</small>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </body>
+  </html>

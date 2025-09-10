@@ -1,0 +1,11 @@
+[build]
+  publish = "/"
+
+# This file assumes deploying the folder itself on Netlify.
+# If your site root in Netlify is the project folder, set publish to "." there.
+
+[[redirects]]
+  from = "/"
+  to = "/index.html"
+  status = 200
+
