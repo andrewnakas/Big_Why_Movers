@@ -5,10 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Big Why Movers | Your Mountain Move, Made Easy</title>
     <meta name="description" content="Local movers serving Bozeman, Livingston, Big Sky, and the Greater Big Sky Country. Your mountain move, made easy." />
+    <meta name="theme-color" content="#1e40af" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Big Why Movers — Your Mountain Move, Made Easy" />
+    <meta property="og:description" content="Friendly local movers serving Bozeman, Livingston, Big Sky, and beyond." />
+    <meta property="og:image" content="assets/img/truck.svg" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Big Why Movers — Your Mountain Move, Made Easy" />
+    <meta name="twitter:description" content="Friendly local movers serving Bozeman, Livingston, Big Sky, and beyond." />
+    <meta name="twitter:image" content="assets/img/truck.svg" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="icon" href="assets/img/truck.svg" />
   </head>
   <body>
+    <a href="#main" class="skip-link">Skip to content</a>
     <header>
       <div class="topbar">
         <div class="container topbar-inner">
@@ -23,7 +33,7 @@
         </a>
         <button class="menu-btn" aria-label="Toggle Menu">☰</button>
         <nav class="nav-links">
-          <a href="index.html">Home</a>
+          <a href="index.html" aria-current="page">Home</a>
           <a href="about.html">About</a>
           <a href="services.html">Services</a>
           <a href="gallery.html">Gallery</a>
@@ -34,7 +44,7 @@
       </div>
     </header>
 
-    <main>
+    <main id="main">
       <section class="hero">
         <div class="container inner">
           <span class="badge">Bozeman • Livingston • Big Sky • Beyond</span>
@@ -151,6 +161,24 @@
 
     <script src="assets/js/main.js"></script>
     <a class="sticky-cta" href="tel:+14065894641">Call for availability • (406) 589‑4641</a>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MovingCompany",
+      "name": "Big Why Movers",
+      "telephone": "+14065894641",
+      "areaServed": [
+        { "@type": "Place", "name": "Bozeman, MT" },
+        { "@type": "Place", "name": "Livingston, MT" },
+        { "@type": "Place", "name": "Big Sky, MT" },
+        { "@type": "Place", "name": "Belgrade, MT" },
+        { "@type": "Place", "name": "Paradise Valley, MT" }
+      ],
+      "sameAs": [
+        "https://www.uhaul.com/MovingHelp/Bozeman-MT-59715/1/Xip-Moving-Pros/?id=8E0B44F119FE42"
+      ]
+    }
+    </script>
     <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
   </body>
   </html>
